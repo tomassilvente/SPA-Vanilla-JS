@@ -14,10 +14,10 @@ const fetchIpInfo = ip =>{
 
 const $ = selector => document.querySelector(selector)
 
-const form = $('#form')
-const input = $('#input')
-const submit = $('#submit')
-const results = $('#results')
+const form = document.querySelector('#form')
+const input = document.querySelector('#input')
+const submit = document.querySelector('#submit')
+const results = document.querySelector('#results')
 
 form.addEventListener('submit', async e =>{
     e.preventDefault()
