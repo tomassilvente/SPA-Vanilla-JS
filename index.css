@@ -1,14 +1,19 @@
 html{
-    background-color: #bdb6a9;
+    background-color: #edcbff;
     text-align: center;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 h1{
     font-size: 80px;
-    color: #f3f1da
+    color: #869ffb;
+    font-family: 'Times New Roman', Times, serif;
+    
 }
 form{
     font-size: 35px;
-    color: white
+    color: rgb(0, 0, 0)
 }
 label{
     display: block;
@@ -37,6 +42,14 @@ input{
 #results{
     margin-top: 30px;
     font-size: 30px;
-    color: white;
+    color: rgb(88, 88, 88);
     text-align: center;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }

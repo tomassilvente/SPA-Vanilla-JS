@@ -30,6 +30,7 @@ form.addEventListener('submit', async (event) =>{
     const {ip, city, country, org, latitude, longitude} = info
 
     if(info){
+       
         results.innerHTML = ([`IP: ${ip} <br /> CITY: ${city} <br /> COUNTRY: ${country} <br /> ORG: ${org} <br /> LATITUDES: ${latitude} <br /> LONGITUDE: ${longitude}`])
         // results.innerHTML = JSON.stringify(info, null,2)
     }
